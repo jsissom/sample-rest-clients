@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker run -it --add-host financials:192.168.85.1 --rm --name perl-close-app perl-close
+
